@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*common css start*/
+body{
+    padding: 0;
+    margin: 0;
+}
+/*common css end*/
+
+/*header css start*/
+header{
+    background-color: #121b2a;
+    margin-bottom: -13px;
+}
+.wrapper{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 0px;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    float: right;
+    margin-top: 1px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-top: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 21px 15px;
+    display: block;
+    color: white;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color: #0075ba;
+}
+/*header css end*/
+
+/*banner css start*/
+.banner{
+    background-image: url(images/PIC2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.b_content{
+    margin-top: 250px;
+    margin-bottom: 100px;
+    width: 60%;
+}
+.b_content h2{
+    color: white;
+    font-size: 43px;
+    margin: 0;
+}
+.b_content h1{
+    color: #0075b8;
+    font-size: 53px;
+    margin:0;
+}
+.b_content p{
+    color: white;
+    font-size: 21px;
+    margin: 0;
+}
+.b_content button{
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+/*banner css end*/
+
+/*service start*/
+.service{
+    background-color: #121b2c;
+    padding: 51px 0;
+    overflow: hidden;
+}
+.single{
+    width: 29%;
+    padding: 15px 20px;
+    float: left;
+    border-right: 1px solid lightblue;
+}
+.single:last-child{
+    border-right: 0;
+}
+.title{
+    overflow: hidden;
+}
+.icon{
+    width: 27%;
+    float: left;
+}
+.icon img{
+    width: 100%;
+}
+.icon_content{
+    width: 70%;
+    float: right;
+   font-size: 15px;
+}
+.icon_content h1{
+    color: white;
+     margin-top: 10px;
+}
+.icon_content h2{
+    color: #0074b5;
+
+}
+.s_s1{
+    color: #006eae;
+}
+.content{}
+.content p{
+    margin-top: 16px;
+    color: #f3f3f4;
+    line-height: 23px;
+    font-size: 16px;
+}
+/*service end*/
+
+/*top of footer css start*/
+.top_of_footer{
+    background-color: #040811;
+    padding: 51px 0;
+}
+.tf_content{
+    overflow: hidden;
+}
+.contact{
+        width: 30%;
+        float: left;
+}
+.contact h2{
+    color: white;
+
+}
+.blue{
+    color: #007cc5;
+}
+.contact p{
+    color: #c0c0c2;
+    margin: 14px 0;
+}
+.contact ul{
+}
+.contact ul li{
+      color: #c0c0c2;
+    line-height: 22px;
+}
+.contact ul li:last-child{
+    padding-top: 10px;
+}
+/*testimonials css start*/
+.testimonials{
+    width: 30%;
+    float: left;
+}
+.t_content{
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 172px;
+    padding: 10px;
+}
+.t_content h2{
+    color: white;
+}
+.t_content p{
+    color: #b3b3b5;
+    margin: 20px 0;
+    line-height: 23px;
+}
+.t_text{
+    margin: 0px 25px
+}
+h4{
+    color: #c0c0c2;
+    margin-top: 0;
+}
+.t_text h4{
+    color: white;
+}
+.t_text p{
+    color: #9ea2a4;
+    margin-top: 7px;
+}
+/*testimonals css end*/
+
+/*apps css start*/
+.apps{
+    width: 30%;
+    float: right;
+}
+.a_content{
+    overflow: hidden;
+}
+.a_img{
+    width: 40%;
+    float: left;
+}
+.a_img img{}
+.a_text{
+    width: 55%;
+    float: right;
+
+}
+.a_text h2{
+    color: white;
+}
+.a_text p{}
+.btn{
+    margin-top: 17px;
+    border-radius: 9px;
+    padding: 5px 10px;
+    overflow: hidden;
+    width: 100%;
+}
+.btn_img{
+    width: 15%;
+    float: left;
+}
+.btn_img img{
+    width: 100%;
+}
+.btn_text{
+    width: 80%;
+    float: right;
+}
+.btn_text p{
+    color: black;
+    margin: -2px;
+    font-size: 11px;
+}
+.btn_text h2{
+    color: black;
+    font-size: 22px;
+}
+/*apps css end*/
+/*top of footer css end*/
+
+/*footer css start*/
+footer{
+    background-color: #121b2c;
+    padding: 38px 0;
+}
+.f_content{
+}
+.f_navigation{
+    width: 56%;
+    float: left;
+    color: #e1e2e4;
+}
+.f_navigation ul{
+    overflow: hidden;
+}
+.f_navigation ul li{
+    list-style: none;
+    float: left;
+}
+.f_navigation ul li a{
+    text-decoration: none;
+    padding-right: 24px;
+    padding: 0 12px;
+    color: #e1e2e4;
+    border-right: 1px solid;
+}
+.f_navigation ul li:last-child a{
+    border-right: 0px;
+}
+.f_navigation ul li:hover a{}
+.f_img{
+    width: 41%;
+    float: right;
+}
+.f_text{
+    margin-top: 18px;
+}
+/*footer css end*/
+
+
